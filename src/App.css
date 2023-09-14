@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #F8C8DC;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.addButton {
+  color: white;
+  background-color:  #F8C8DC;
+  border: none;
+}
+
+.todo-item {
+  border: 1px solid #C3B1E1;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.myList{
+  margin: 100px;
+}
+
+.action-edit {
+  background-color: #A7C7E7;
+  color: white;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.action-delete {
+  background-color: #F8C8DC;
+  color: white;
+  font-size: 20px;
 }
